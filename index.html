@@ -173,20 +173,21 @@
           
         </div>
 
-        <form>
+        <form  action="https://formspree.io/f/xeqwjeev"
+        method="POST">
             <div class="form-controls">
                 <label for="name">Name</label>
-                <input id="name" type="text">
+                <input id="name" type="name">
             </div>
 
             <div class="form-controls">
                 <label for="email">Email</label>
-                <input id="email" type="text">
+                <input id="email" type="email" required>
             </div>
 
             <div class="form-controls">
                 <label for="message">Message</label>
-                 <textarea id="message" rows="10" cols="5"></textarea> 
+                 <textarea id="message" rows="10" cols="5" name="message"></textarea> 
             </div>
             <button class="contact-button" type="button">Contact button</button>
         </form>
