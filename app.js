@@ -12,5 +12,5 @@ projectOneBtn.addEventListener("click",() =>{
         });
 
         projectThreeBtn.addEventListener("click",() =>{
-            alert("This recipe is under development, please check in some other time ")
+            alert("This recipe app is under development, please check in some other time ")
             });
