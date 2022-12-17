@@ -1,7 +1,7 @@
 "use strict"
-const projectOneBtn = document.querySelector("button-p1btn")
-const projectTwoBtn = document.querySelector("button-p1btn")
-const projectThreeBtn = document.querySelector("button-p1btn")
+const projectOneBtn = document.querySelector(".p1btn")
+const projectTwoBtn = document.querySelector(".p2btn")
+const projectThreeBtn = document.querySelector(".p3btn")
 
 projectOneBtn.addEventListener("click",() =>{
     alert("This project is under development, please check in some other time ")
