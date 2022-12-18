@@ -174,18 +174,22 @@
         <form  action="https://formspree.io/f/xeqwjeev"
         method="POST">
             <div class="form-controls">
-                <label for="name">Name</label>
-                <input id="name" type="text" required>
+                <label for="name"> Full Name</label>
+                <input id="name" type="text" placeholder="Ennter your full name" required>
             </div>
 
             <div class="form-controls">
+                <label for="email">Phone</label>
+                <input id="phone" type="phone" placeholder="+232 00000000" required>
+            </div>
+            <div class="form-controls">
                 <label for="email">Email</label>
-                <input id="email" type="email" required>
+                <input id="email" type="email" placeholder="youremail@example.com" required>
             </div>
 
             <div class="form-controls">
                 <label for="message">Message</label>
-                 <textarea id="message" rows="10" cols="5" name="message"></textarea> 
+                 <textarea id="message" rows="10" cols="5" name="message" placeholder="Please write your message here..."></textarea> 
             </div>
             <button class="contact-button" type="submit">Send message</button>
         </form>
