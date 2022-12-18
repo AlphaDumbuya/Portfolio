@@ -110,6 +110,8 @@ header nav ul li a{
 .project-image img{
     width: 100%;
     border-radius: 12px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.261);
+    
 }
 .project-content{
     margin-top: 20px;
@@ -158,6 +160,7 @@ header nav ul li a{
 .about-image img{
     width: 100%;
     border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.261);
 }
 .about-button{
     margin: 20px;
