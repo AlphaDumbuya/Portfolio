@@ -50,19 +50,31 @@ header nav ul li a{
 }
 
 /* hero section */
+
+    .hero {background: url("../images/undraw_Landing_page_re_6xev.png") no-repeat;
+       
+       
+      
+      }
+
 .hero{
     width: 100%;
     padding: 160px 20px;
-    background-color: #363636;
-    color: #f1f1f1;
+   background-image: linear-gradient(80deg, rgba(112, 112, 118, 0.5)0%, rgba(101, 97, 97, 0.5)100%),  url(../images/undraw_Contract_re_ves9.png);
     position: relative;
+    color: #363636;
+    text-align: center;
+    font-size: 15px;
+    
 }
 .hero-left-content h1{
     font-size: 12px;
+    border-bottom: 5px solid teal wavy;
 }
 .hero-left-content h2{
     font-size: 24px;
     padding: 6px 0;
+    color: rgb(0, 0, 15);
 }
 .hero-left-content p{
     padding: 4px 35px 0 0;
@@ -192,7 +204,7 @@ header nav ul li a{
 }
 .contact form{
     margin-top: 30px;
-    background-color: teal;
+    background-image: linear-gradient(80deg, rgba(112, 112, 118, 0.5)0%, rgba(101, 97, 97, 0.5)100%),  url(../images/undraw_Landing_page_re_6xev.png);
     border-radius: 10px;
     padding: 20px;
 }
@@ -217,7 +229,7 @@ header nav ul li a{
     margin-top:  20px;
     padding: 8px;
     border: none;
-    color: teal;
+    color: rgb(77, 52, 5);
     border-radius: 6px;
     cursor:pointer
 }
