@@ -60,7 +60,7 @@ header nav ul li a{
 .hero{
     width: 100%;
     padding: 160px 20px;
-   background-image: linear-gradient(80deg, rgba(112, 112, 118, 0.5)0%, rgba(101, 97, 97, 0.5)100%),  url(../images/undraw_Contract_re_ves9.png);
+   background-image: linear-gradient(80deg, rgba(254, 254, 255, 0.5)0%, rgba(101, 97, 97, 0.5)100%),  url(../images/undraw_Contract_re_ves9.png);
     position: relative;
     color: #363636;
     text-align: center;
@@ -242,9 +242,13 @@ footer{
     background-color: #ccc;
     text-align: center;
 }
+footer {
+  
+    color: #fff;
+    background-color: #171616;
+}
 footer p{
     font-size: 10px;
-    color: #363636;
 }
 /* Media query styles for desktop screen */
 @media(min-width: 900px){
@@ -322,7 +326,7 @@ footer p{
 .contact{
     
     padding: 80px 100px;
-    display: flex;
+    
     
     
 }  
@@ -331,7 +335,7 @@ footer p{
     width: 40%;
 }
 .contact form{
-    width: 60%;
+    width: 100%;
     
 }
 .form-controls{
@@ -342,7 +346,14 @@ footer p{
 .contact-button{
     padding: 8px 30px;
 }
+/* footer .content{
+    display: block;
 }
+
+}
+.cntent .socials ul li{
+    display: inline-block;
+} */
 
 
 
