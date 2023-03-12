@@ -251,7 +251,7 @@ footer p{
     font-size: 10px;
 }
 /* Media query styles for desktop screen */
-@media(min-width: 900px){
+@media(min-width: 800px){
     /* Body */
     body{
         font-size: 15px;
@@ -346,14 +346,8 @@ footer p{
 .contact-button{
     padding: 8px 30px;
 }
-/* footer .content{
-    display: block;
-}
 
-}
-.cntent .socials ul li{
-    display: inline-block;
-} */
+} 
 
 
 
