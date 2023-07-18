@@ -55,19 +55,31 @@ header nav ul li a{
 }
 
 /* hero section */
+
+   
+       
+       
+      
+      
+
 .hero{
     width: 100%;
     padding: 160px 20px;
     background-color: #363636;
-    color: #f1f1f1;
     position: relative;
+    background-position: center;
+    color: #fff;
+    font-size: 15px;
+    
 }
 .hero-left-content h1{
     font-size: 12px;
+    border-bottom: 5px solid teal wavy;
 }
 .hero-left-content h2{
     font-size: 24px;
     padding: 6px 0;
+    
 }
 .hero-left-content p{
     padding: 4px 35px 0 0;
@@ -107,6 +119,7 @@ header nav ul li a{
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 .project-image{
     width: 100%;
@@ -196,12 +209,15 @@ header nav ul li a{
 }
 .contact form{
     margin-top: 30px;
-    background-color: teal;
     border-radius: 10px;
+    background-position: center;
     padding: 20px;
 }
 .form-controls{
     margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    opacity: 0.5;
+  
 }
 .form-controls label,
 .form-controls input,
@@ -212,7 +228,6 @@ header nav ul li a{
 }
 .form-controls input,
 .form-controls textarea{
-    border-radius: 5px;
     border: none;
     padding: 7px 8px;
     margin-top: 3px;
@@ -221,7 +236,7 @@ header nav ul li a{
     margin-top:  20px;
     padding: 8px;
     border: none;
-    color: teal;
+    color: rgb(77, 52, 5);
     border-radius: 6px;
     cursor:pointer
 }
@@ -234,12 +249,16 @@ footer{
     background-color: #ccc;
     text-align: center;
 }
+footer {
+  
+    color: #fff;
+    background-color: #171616;
+}
 footer p{
     font-size: 10px;
-    color: #363636;
 }
 /* Media query styles for desktop screen */
-@media(min-width: 900px){
+@media(min-width: 720px){
     /* Body */
     body{
         font-size: 15px;
@@ -314,7 +333,7 @@ footer p{
 .contact{
     
     padding: 80px 100px;
-    display: flex;
+    
     
     
 }  
@@ -323,7 +342,7 @@ footer p{
     width: 40%;
 }
 .contact form{
-    width: 60%;
+    width: 100%;
     
 }
 .form-controls{
@@ -334,7 +353,8 @@ footer p{
 .contact-button{
     padding: 8px 30px;
 }
-}
+
+} 
 
 
 
