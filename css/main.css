@@ -27,10 +27,13 @@ header{
     z-index: 100;
 }
 #google_translate_element{
-    position: fixed;
+    
+    
+    
     z-index: 100;
-}
 
+}
+    
 header .logo{
     font-size: 15px;
     color: #363636;

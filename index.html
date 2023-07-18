@@ -8,19 +8,19 @@
     <title>Alpha</title>
 </head>
 <body>
-    <div id="google_translate_element"></div>
-    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script>
-        function googleTranslateElementInit(){
-            new google.translate.TranslateElement(
-                {pageLanguage: 'en'},
-                'google_translate_element'
-            )
-        }
-    </script>
+    
     <!-- Navigation Header -->
     <header>
-        <a class="logo" id="" href="#">AD</a>
+        <div id="google_translate_element"></div>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+            function googleTranslateElementInit(){
+                new google.translate.TranslateElement(
+                    {pageLanguage: 'en'},
+                    'google_translate_element'
+                )
+            }
+        </script>
         <nav>
             <ul>
                 <li><a href="#potfolio">Portfolio</a></li>
