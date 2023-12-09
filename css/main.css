@@ -161,7 +161,20 @@ header nav ul li a{
     border-radius: 6px;
     cursor: pointer;
 }
-
+.utton{
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    background-color: teal;
+    color:#fff;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.utton a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* About */
 .about{
@@ -312,6 +325,9 @@ footer p{
     margin-top: 8px;
 }
 
+.utton{
+    padding: 8px 30px;
+}
 
 .button{
     
